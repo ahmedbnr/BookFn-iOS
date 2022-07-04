@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022591D1286122D100481D2E /* SecondModalTransitionListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022591D0286122D000481D2E /* SecondModalTransitionListener.swift */; };
+		02A7E01E2858CF73009E664E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E01D2858CF73009E664E /* AppDelegate.swift */; };
+		02A7E0202858CF73009E664E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E01F2858CF73009E664E /* SceneDelegate.swift */; };
+		02A7E0252858CF73009E664E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A7E0232858CF73009E664E /* Main.storyboard */; };
+		02A7E0272858CF74009E664E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A7E0262858CF74009E664E /* Assets.xcassets */; };
+		02A7E0352858D049009E664E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A7E0342858D049009E664E /* LaunchScreen.storyboard */; };
+		02A7E03A2858DF56009E664E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E0392858DF56009E664E /* LoginView.swift */; };
+		02A7E03C2858DFE4009E664E /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E03B2858DFE4009E664E /* RegisterView.swift */; };
+		02A7E03E2858DFF3009E664E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E03D2858DFF3009E664E /* HomeView.swift */; };
+		02A7E0422858F7DA009E664E /* PwdResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E0412858F7DA009E664E /* PwdResetView.swift */; };
+		02A7E0442858F801009E664E /* PwdEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E0432858F801009E664E /* PwdEditView.swift */; };
+		02A7E0462858F81A009E664E /* PwdEmailSendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E0452858F81A009E664E /* PwdEmailSendView.swift */; };
+		02A7E0482858F828009E664E /* PwdResetCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E0472858F828009E664E /* PwdResetCodeView.swift */; };
+		02A7E04A2858F86F009E664E /* BookShelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E0492858F86F009E664E /* BookShelfView.swift */; };
+		02A7E04C2858F875009E664E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E04B2858F875009E664E /* ProfileView.swift */; };
+		02A7E04E2858F881009E664E /* ProfileEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E04D2858F881009E664E /* ProfileEditView.swift */; };
+		02A7E0502858F8E3009E664E /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E04F2858F8E3009E664E /* Book.swift */; };
+		02A7E0522858F9AE009E664E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E0512858F9AE009E664E /* User.swift */; };
+		02A7E0542858FABC009E664E /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E0532858FABC009E664E /* BookViewModel.swift */; };
+		02A7E0572858FAF9009E664E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E0562858FAF9009E664E /* Constants.swift */; };
+		02A7E0592858FB65009E664E /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E0582858FB65009E664E /* Alert.swift */; };
+		02A7E05B2858FB9A009E664E /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E05A2858FB9A009E664E /* Style.swift */; };
+		02A7E05D2858FBB3009E664E /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E05C2858FBB3009E664E /* ImageLoader.swift */; };
+		02A7E05F2858FBEC009E664E /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E05E2858FBEC009E664E /* LoadingScreen.swift */; };
+		02A7E06128590393009E664E /* BookDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E06028590393009E664E /* BookDetailsView.swift */; };
+		02A7E0632859052E009E664E /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E0622859052E009E664E /* UserViewModel.swift */; };
+		02A7E06528591550009E664E /* ModalTransitionListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E06428591550009E664E /* ModalTransitionListener.swift */; };
+		02A7E06728591BAF009E664E /* CheckSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E06628591BAF009E664E /* CheckSessionView.swift */; };
+		02A7E06928596E12009E664E /* BookReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E06828596E12009E664E /* BookReaderView.swift */; };
+		02A7E06B28597021009E664E /* BookTTSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7E06A28597021009E664E /* BookTTSView.swift */; };
+		1F4A67B1D748DA8A39F90387 /* Pods_BookFanatic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27C92EFB7621D2EDF47EC7B /* Pods_BookFanatic.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		022591D0286122D000481D2E /* SecondModalTransitionListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondModalTransitionListener.swift; sourceTree = "<group>"; };
+		02A7E01A2858CF73009E664E /* BookFanatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookFanatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A7E01D2858CF73009E664E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02A7E01F2858CF73009E664E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		02A7E0242858CF73009E664E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02A7E0262858CF74009E664E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02A7E02B2858CF74009E664E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A7E0342858D049009E664E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02A7E0392858DF56009E664E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		02A7E03B2858DFE4009E664E /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		02A7E03D2858DFF3009E664E /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		02A7E0412858F7DA009E664E /* PwdResetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PwdResetView.swift; sourceTree = "<group>"; };
+		02A7E0432858F801009E664E /* PwdEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PwdEditView.swift; sourceTree = "<group>"; };
+		02A7E0452858F81A009E664E /* PwdEmailSendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PwdEmailSendView.swift; sourceTree = "<group>"; };
+		02A7E0472858F828009E664E /* PwdResetCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PwdResetCodeView.swift; sourceTree = "<group>"; };
+		02A7E0492858F86F009E664E /* BookShelfView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookShelfView.swift; sourceTree = "<group>"; };
+		02A7E04B2858F875009E664E /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		02A7E04D2858F881009E664E /* ProfileEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEditView.swift; sourceTree = "<group>"; };
+		02A7E04F2858F8E3009E664E /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		02A7E0512858F9AE009E664E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		02A7E0532858FABC009E664E /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
+		02A7E0562858FAF9009E664E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		02A7E0582858FB65009E664E /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		02A7E05A2858FB9A009E664E /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		02A7E05C2858FBB3009E664E /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		02A7E05E2858FBEC009E664E /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
+		02A7E06028590393009E664E /* BookDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailsView.swift; sourceTree = "<group>"; };
+		02A7E0622859052E009E664E /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		02A7E06428591550009E664E /* ModalTransitionListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalTransitionListener.swift; sourceTree = "<group>"; };
+		02A7E06628591BAF009E664E /* CheckSessionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckSessionView.swift; sourceTree = "<group>"; };
+		02A7E06828596E12009E664E /* BookReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookReaderView.swift; sourceTree = "<group>"; };
+		02A7E06A28597021009E664E /* BookTTSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTTSView.swift; sourceTree = "<group>"; };
+		3F95CB9B0698ED49D6D7B682 /* Pods-BookFanatic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookFanatic.release.xcconfig"; path = "Target Support Files/Pods-BookFanatic/Pods-BookFanatic.release.xcconfig"; sourceTree = "<group>"; };
+		972FABC5472689DBFA1AB044 /* Pods-BookFanatic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookFanatic.debug.xcconfig"; path = "Target Support Files/Pods-BookFanatic/Pods-BookFanatic.debug.xcconfig"; sourceTree = "<group>"; };
+		C27C92EFB7621D2EDF47EC7B /* Pods_BookFanatic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookFanatic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02A7E0172858CF73009E664E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4A67B1D748DA8A39F90387 /* Pods_BookFanatic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02A7E0112858CF73009E664E = {
+			isa = PBXGroup;
+			children = (
+				02A7E01C2858CF73009E664E /* BookFanatic */,
+				02A7E01B2858CF73009E664E /* Products */,
+				6BDDB6D45DB36D805F7853FC /* Pods */,
+				D1B67FA43A9A26A07ED51114 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02A7E01B2858CF73009E664E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02A7E01A2858CF73009E664E /* BookFanatic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02A7E01C2858CF73009E664E /* BookFanatic */ = {
+			isa = PBXGroup;
+			children = (
+				02A7E01D2858CF73009E664E /* AppDelegate.swift */,
+				02A7E01F2858CF73009E664E /* SceneDelegate.swift */,
+				02A7E0232858CF73009E664E /* Main.storyboard */,
+				02A7E0342858D049009E664E /* LaunchScreen.storyboard */,
+				02A7E0382858D62D009E664E /* Model */,
+				02A7E0312858D028009E664E /* View */,
+				02A7E0372858D626009E664E /* ViewModel */,
+				02A7E0552858FADA009E664E /* Utilities */,
+				02A7E0262858CF74009E664E /* Assets.xcassets */,
+				02A7E02B2858CF74009E664E /* Info.plist */,
+			);
+			path = BookFanatic;
+			sourceTree = "<group>";
+		};
+		02A7E0312858D028009E664E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02A7E06628591BAF009E664E /* CheckSessionView.swift */,
+				02A7E03B2858DFE4009E664E /* RegisterView.swift */,
+				02A7E0392858DF56009E664E /* LoginView.swift */,
+				02A7E0452858F81A009E664E /* PwdEmailSendView.swift */,
+				02A7E0472858F828009E664E /* PwdResetCodeView.swift */,
+				02A7E0412858F7DA009E664E /* PwdResetView.swift */,
+				02A7E03D2858DFF3009E664E /* HomeView.swift */,
+				02A7E06028590393009E664E /* BookDetailsView.swift */,
+				02A7E06828596E12009E664E /* BookReaderView.swift */,
+				02A7E06A28597021009E664E /* BookTTSView.swift */,
+				02A7E0492858F86F009E664E /* BookShelfView.swift */,
+				02A7E04B2858F875009E664E /* ProfileView.swift */,
+				02A7E04D2858F881009E664E /* ProfileEditView.swift */,
+				02A7E0432858F801009E664E /* PwdEditView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		02A7E0372858D626009E664E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				02A7E0622859052E009E664E /* UserViewModel.swift */,
+				02A7E0532858FABC009E664E /* BookViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		02A7E0382858D62D009E664E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02A7E04F2858F8E3009E664E /* Book.swift */,
+				02A7E0512858F9AE009E664E /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02A7E0552858FADA009E664E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				02A7E0562858FAF9009E664E /* Constants.swift */,
+				02A7E0582858FB65009E664E /* Alert.swift */,
+				02A7E05A2858FB9A009E664E /* Style.swift */,
+				02A7E06428591550009E664E /* ModalTransitionListener.swift */,
+				022591D0286122D000481D2E /* SecondModalTransitionListener.swift */,
+				02A7E05C2858FBB3009E664E /* ImageLoader.swift */,
+				02A7E05E2858FBEC009E664E /* LoadingScreen.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6BDDB6D45DB36D805F7853FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				972FABC5472689DBFA1AB044 /* Pods-BookFanatic.debug.xcconfig */,
+				3F95CB9B0698ED49D6D7B682 /* Pods-BookFanatic.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1B67FA43A9A26A07ED51114 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C27C92EFB7621D2EDF47EC7B /* Pods_BookFanatic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02A7E0192858CF73009E664E /* BookFanatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02A7E02E2858CF74009E664E /* Build configuration list for PBXNativeTarget "BookFanatic" */;
+			buildPhases = (
+				D0ED0676A2DBDB4C4BCBDAFF /* [CP] Check Pods Manifest.lock */,
+				02A7E0162858CF73009E664E /* Sources */,
+				02A7E0172858CF73009E664E /* Frameworks */,
+				02A7E0182858CF73009E664E /* Resources */,
+				9EC2173A9FC76AF33571A237 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookFanatic;
+			productName = BookFanatic;
+			productReference = 02A7E01A2858CF73009E664E /* BookFanatic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02A7E0122858CF73009E664E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					02A7E0192858CF73009E664E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 02A7E0152858CF73009E664E /* Build configuration list for PBXProject "BookFanatic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02A7E0112858CF73009E664E;
+			productRefGroup = 02A7E01B2858CF73009E664E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02A7E0192858CF73009E664E /* BookFanatic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02A7E0182858CF73009E664E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A7E0272858CF74009E664E /* Assets.xcassets in Resources */,
+				02A7E0352858D049009E664E /* LaunchScreen.storyboard in Resources */,
+				02A7E0252858CF73009E664E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9EC2173A9FC76AF33571A237 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookFanatic/Pods-BookFanatic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookFanatic/Pods-BookFanatic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BookFanatic/Pods-BookFanatic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0ED0676A2DBDB4C4BCBDAFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookFanatic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02A7E0162858CF73009E664E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A7E05F2858FBEC009E664E /* LoadingScreen.swift in Sources */,
+				02A7E0632859052E009E664E /* UserViewModel.swift in Sources */,
+				02A7E06128590393009E664E /* BookDetailsView.swift in Sources */,
+				02A7E0462858F81A009E664E /* PwdEmailSendView.swift in Sources */,
+				02A7E01E2858CF73009E664E /* AppDelegate.swift in Sources */,
+				02A7E06928596E12009E664E /* BookReaderView.swift in Sources */,
+				02A7E04E2858F881009E664E /* ProfileEditView.swift in Sources */,
+				02A7E06528591550009E664E /* ModalTransitionListener.swift in Sources */,
+				02A7E0592858FB65009E664E /* Alert.swift in Sources */,
+				02A7E0422858F7DA009E664E /* PwdResetView.swift in Sources */,
+				02A7E03C2858DFE4009E664E /* RegisterView.swift in Sources */,
+				022591D1286122D100481D2E /* SecondModalTransitionListener.swift in Sources */,
+				02A7E0542858FABC009E664E /* BookViewModel.swift in Sources */,
+				02A7E05B2858FB9A009E664E /* Style.swift in Sources */,
+				02A7E04C2858F875009E664E /* ProfileView.swift in Sources */,
+				02A7E05D2858FBB3009E664E /* ImageLoader.swift in Sources */,
+				02A7E0572858FAF9009E664E /* Constants.swift in Sources */,
+				02A7E0522858F9AE009E664E /* User.swift in Sources */,
+				02A7E04A2858F86F009E664E /* BookShelfView.swift in Sources */,
+				02A7E03A2858DF56009E664E /* LoginView.swift in Sources */,
+				02A7E03E2858DFF3009E664E /* HomeView.swift in Sources */,
+				02A7E0482858F828009E664E /* PwdResetCodeView.swift in Sources */,
+				02A7E06B28597021009E664E /* BookTTSView.swift in Sources */,
+				02A7E0202858CF73009E664E /* SceneDelegate.swift in Sources */,
+				02A7E0502858F8E3009E664E /* Book.swift in Sources */,
+				02A7E06728591BAF009E664E /* CheckSessionView.swift in Sources */,
+				02A7E0442858F801009E664E /* PwdEditView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02A7E0232858CF73009E664E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02A7E0242858CF73009E664E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02A7E02C2858CF74009E664E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02A7E02D2858CF74009E664E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02A7E02F2858CF74009E664E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 972FABC5472689DBFA1AB044 /* Pods-BookFanatic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookFanatic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BookFanatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02A7E0302858CF74009E664E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F95CB9B0698ED49D6D7B682 /* Pods-BookFanatic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookFanatic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BookFanatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02A7E0152858CF73009E664E /* Build configuration list for PBXProject "BookFanatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02A7E02C2858CF74009E664E /* Debug */,
+				02A7E02D2858CF74009E664E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02A7E02E2858CF74009E664E /* Build configuration list for PBXNativeTarget "BookFanatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02A7E02F2858CF74009E664E /* Debug */,
+				02A7E0302858CF74009E664E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02A7E0122858CF73009E664E /* Project object */;
+}
