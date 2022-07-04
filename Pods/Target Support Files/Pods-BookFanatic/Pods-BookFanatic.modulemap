@@ -1,0 +1,6 @@
+framework module Pods_BookFanatic {
+  umbrella header "Pods-BookFanatic-umbrella.h"
+
+  export *
+  module * { export * }
+}
