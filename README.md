@@ -1,6 +1,6 @@
 # BookFn-iOS
 # Book Fanatic
-Book Fanatic is a Mobile application dedicated for BookWorms that was developped by Ahmed Bannour at ESPRIT.
+Book Fanatic is a Mobile application dedicated for BookWorms that was developped by Ahmed Bannour at ESPRIT.  
 Using Swift, NodeJs, Kotlin and MongoDB, I was able to develop this project insuring a solid architecture, modern design while maintaining a fun user experience.
 
 # Requirements
