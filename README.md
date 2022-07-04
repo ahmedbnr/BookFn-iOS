@@ -8,7 +8,7 @@ Xcode installed
 git installed
 
 # Run
-1- git clone https://github.com/ahmedBANNOUR1997/iOS-BookFN.git  
+1- git clone https://github.com/ahmedbnr/BookFn-iOS.git   
 2- perform "git pull origin master  
 3- install and update the dependencies : Open the terminal in the project directory and do a : pod install --repo-update  
 4- Lunch the app  
